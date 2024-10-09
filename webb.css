@@ -1,0 +1,33 @@
+header h1{
+    text-align: center;
+
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #888;
+    padding: 0;
+    margin: 0;
+   
+    overflow: hidden;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #444;
+    transition: 1s;
+}
+.navbar li {
+    float: left;
+}
+.right {
+    float:right !important;
+}
+img{
+   border-radius: 10px;
+}
