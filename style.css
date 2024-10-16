@@ -1,0 +1,67 @@
+ body{
+    background-image: url("https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2024-10/100824-hero-brandon-royval_GettyImages-2037003168.jpg?h=d1cb525d&itok=ArJCBir-");
+}
+
+.grid-container{
+    min-height: 100vh;
+    display: grid;
+
+    grid-template-columns: 250px 1fr 250px;
+    grid-template-rows: 50px 50px auto auto;
+
+    grid-template-areas: 
+    ". . ."
+    ". navbar ."
+    ". main ."
+    ". section .";
+}
+
+.navbar{
+    grid-area: navbar;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+   
+    overflow: hidden;
+    border-radius: 10px;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #444;
+    transition: 1s;
+}
+.navbar li {
+    float: left;
+}
+.right {
+    float:right !important;
+}
+
+main{
+    grid-area: main;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+
+    align-items: center;
+}
+.box{
+    background-color: #ffffff52;
+    width: 350px;
+    height: 200px;
+    
+}
+
+section{
+    grid-area: section;
+
+}
