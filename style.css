@@ -53,10 +53,12 @@ main{
     justify-content: center;
 
     align-items: center;
+    font-size: xx-large;
+    color: #fff;
 }
 .box{
     background-color: #ffffff52;
-    width: 350px;
+    width: 700px;
     height: 200px;
     
 }
@@ -64,4 +66,20 @@ main{
 section{
     grid-area: section;
 
+}
+.navbar2 a{ 
+    color: black;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.navbar2 li{
+    list-style-type: none;
+    background-color: #fff;
+}
+.navbar2 a:hover {
+    background-color: #444;
+    transition: 1s;
 }
