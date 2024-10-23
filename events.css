@@ -1,0 +1,97 @@
+.navbar{
+    grid-area: navbar;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+   
+    overflow: hidden;
+    border-radius: 10px;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #444;
+    transition: 1s;
+}
+.navbar li {
+    float: left;
+}
+.right {
+    float:right !important;
+}
+body{
+    padding: 20px;
+    background-color: #335566;
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+}
+
+.match-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.match {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.fighters {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.fighters img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.details {
+    padding: 10px;
+    flex: 1;
+}
+
+.details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.details p {
+    margin: 2px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s
+}
+
+.buttons button:hover {
+    background-color: #555;
+}

@@ -27,19 +27,27 @@
 .right {
     float:right !important;
 }
-body{
+
+body {
     padding: 20px;
     background-color: #335566;
     font-family: Arial, sans-serif;
-}
-
-main{
- color: #fff;
-
-}
-#Contact{
-    font-size: x-large;
-}
-#Gmail{
     color: #fff;
+}
+
+
+.Shop-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+.Shop-container img{
+    margin-top: 20px;
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.Shop-container div{
+    background-color: rgb(29, 41, 41);
 }
