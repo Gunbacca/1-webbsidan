@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: #335566;
+}
+
+.ranking-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.ranking-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ranking-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.ranking-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.ranking-card p {
+    color: #d32f2f;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ranking-card ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.ranking-card ol li {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+.navbar{
+    grid-area: navbar;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+   
+    overflow: hidden;
+    border-radius: 10px;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #444;
+    transition: 1s;
+}
+.navbar li {
+    float: left;
+}
+.right {
+    float:right !important;
+}
+

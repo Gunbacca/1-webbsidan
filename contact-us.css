@@ -1,6 +1,5 @@
-header h1{
-    text-align: center;
-
+.navbar{
+    grid-area: navbar;
 }
 .navbar ul{
     list-style-type: none;
@@ -11,16 +10,8 @@ header h1{
     overflow: hidden;
     border-radius: 10px;
 }
-
-.navbar {
-    position: absolute;
-    top: 100px;
-    width: 80vw;
-    margin-left: 10vw;
-}
-
 .navbar a {
-    color: #000000;
+    color: black;
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -36,19 +27,8 @@ header h1{
 .right {
     float:right !important;
 }
-img{
-   border-radius: 10px;
-}
-#picka{
-    position: absolute;
-    top: 200px;
-    left: 1000px;
-    width: 100px;
-    color: #fff;
-    background-color: greenyellow;
-
-}
-
-main{
-    grid-area: main;
+body{
+    padding: 20px;
+    background-color: #335566;
+    font-family: Arial, sans-serif;
 }
