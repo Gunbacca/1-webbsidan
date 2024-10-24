@@ -40,6 +40,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 30px;
+    margin-top: 20px;
 }
 .Shop-container img{
     margin-top: 20px;
@@ -47,8 +48,17 @@ body {
     height: 300px;
     border-radius: 10px;
     object-fit: cover;
+    
 }
 .Shop-container div{
-    background-color: rgb(29, 41, 41);
+    background-color: white;
+    border-radius: 50px;
 }
-bb
+.text{
+    text-align: center;
+    color: black;
+}
+
+.Shop-container p{
+    font-size: x-large;
+}
